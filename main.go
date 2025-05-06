@@ -1,11 +1,11 @@
 package main
 
 import (
-	"my_postgres/app/database"
-	"my_postgres/app/handler"
-
 	"github.com/gin-gonic/gin"
+	"github.com/toomtoomluvcat/vet-clinic-backend/app/database"
+	"github.com/toomtoomluvcat/vet-clinic-backend/app/handler"
 )
+
 
 func CORSMiddleware() gin.HandlerFunc {
 

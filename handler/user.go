@@ -3,8 +3,9 @@ package handler
 import (
 	"errors"
 	"fmt"
-	"my_postgres/app/database"
-	"my_postgres/app/model"
+
+	"github.com/toomtoomluvcat/vet-clinic-backend/app/database"
+	"github.com/toomtoomluvcat/vet-clinic-backend/app/model"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lib/pq"
